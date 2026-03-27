@@ -1,0 +1,35 @@
+# --- Ambientes Virtuais e Dependências ---
+node_modules/
+venv/
+env/
+.env
+bin/
+obj/
+
+# --- Arquivos de Sistema ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs e Temporários ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+tmp/
+temp/
+
+# --- IDEs (VS Code, IntelliJ, etc) ---
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# --- Compilados e Builds ---
+dist/
+build/
+out/
+*.exe
+*.dll
+*.so
+*.class

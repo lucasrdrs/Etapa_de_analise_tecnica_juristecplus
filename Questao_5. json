@@ -1,0 +1,25 @@
+{
+  "clientes": {
+    "ID_CLIENTE_01": {
+      "nome": "Joao",
+      "cpf_cnpj": "123.456.789-01",
+      "estado": "SP",
+      "data_cadastro": "2026-03-26T20:00:00Z",
+      
+      "processos": {
+        "ID_PROCESSO_A": {
+          "id_processo": 101,
+          "valor_causa": 1500.00,
+          "status": "Ativo",
+          "data_abertura": "2026-01-10T10:30:00Z"
+        },
+        "ID_PROCESSO_B": {
+          "id_processo": 105,
+          "valor_causa": 2000.00,
+          "status": "Encerrado",
+          "data_abertura": "2026-02-15T14:20:00Z"
+        }
+      }
+    }
+  }
+}
